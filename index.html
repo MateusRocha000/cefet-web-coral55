@@ -8,42 +8,141 @@
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
   <div id="recipiente">
-    <div id="cabecalho">
+    <header>
       <h1>Lanchonete do Coral 55</h1>
-      <h2>O melhor açaí marítimo da região</h2>
-    </div>
-    <div id="conteudo">
-      <div id="lateral">
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
-        <h2>Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
-          coquetel de algas">
-      </div>
-      <div id="cardapio">
+      <div class="subt"><h2>O melhor <span class="acai">açaí</span> marítimo da região</h2></div>
+    </header>
+    <article>
+      <aside>
+        <div class="siri"><img src="images/siri.png" alt="Um siri feliz após comer na lanchonete"></div>
+        <div class="card"><h2>Cardápio</h2></div>
+        <div class="bolha"><img src="images/bolhas.png" alt="Bolhas de ar"></div>
+        <div class="fish"><img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+          coquetel de algas"></div>
+      </aside>
+      <section>
         <h3>Salgados</h3>
         <!--
           encontre uma forma para dispor os itens do cardápio com seus
           nomes à esquerda e os preços à direita
         -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
+        <div class="item">
+          <div class="nome">
+            Pão de queijo de égua marinha
+          </div>
+
+          <div class="price">
+            $ 0,99
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Hamburguer de microinsetos com salada de algas ou de musgo
+          </div>
+
+          <div class="price">
+            $ 2,49
+          </div>
+        </div>
+
         <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
+        <div class="item">
+          <div class="nome">
+            Açaí do manguezal 500ml
+          </div>
+
+          <div class="price">
+            $ 4,99
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Açaí marítimo (assinatura) 500ml
+          </div>
+
+          <div class="price">
+            $ 6,99
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Algas verdes fritas
+          </div>
+
+          <div class="price">
+            $ 7,49
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Plâncton ao molho maracujá
+          </div>
+
+          <div class="price">
+            $ 12,49
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Plâncton ao pacífico (importado) marinado
+          </div>
+
+          <div class="price">
+            $ 19,99
+          </div>
+        </div>
+        
         <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
+
+        <div class="item">
+          <div class="nome">
+            Água temperada (cortesia)
+          </div>
+
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Água doce importada (copo)
+          </div>
+
+          <div class="price">
+            $ 29,49
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Coquetel de algas (alcoólico)
+          </div>
+
+          <div class="price">
+            $ 8,99
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="nome">
+            Coquetel de algas (kids)
+          </div>
+
+          <div class="price">
+            $ 5,49
+          </div>
+        </div>
+        
+      </section>
+    </article>
+    <footer>
+      <div class="cartao">
+        <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
       </div>
-    </div>
-    <div id="rodape">
-      <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
+    </footer>
   </div>
   <div id="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">
