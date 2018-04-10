@@ -7,8 +7,9 @@
 </head>
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
+  <script src="./js/bubbles.js"></script>
   <div id="recipiente">
-    <header class="header">
+    <header>
       <h1>Lanchonete do Coral 55</h1>
       <div class="subt"><h2>O melhor <span class="acai">açaí</span> marítimo da região</h2></div>
     </header>
@@ -21,118 +22,124 @@
           coquetel de algas"></div>
       </section>
       <main><div class="main">
-        <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        <div class="item">
-          <div class="nome">
-            Pão de queijo de égua marinha
+        <div class="salgado">
+          <h3>Salgados</h3>
+          <!--
+            encontre uma forma para dispor os itens do cardápio com seus
+            nomes à esquerda e os preços à direita
+          -->
+          <div class="item">
+            <div class="nome">
+              Pão de queijo de égua marinha
+            </div>
+
+            <div class="price">
+              $ 0,99
+            </div>
           </div>
 
-          <div class="price">
-            $ 0,99
-          </div>
-        </div>
+          <div class="item">
+            <div class="nome">
+              Hamburguer de microinsetos com salada de algas ou de musgo
+            </div>
 
-        <div class="item">
-          <div class="nome">
-            Hamburguer de microinsetos com salada de algas ou de musgo
-          </div>
-
-          <div class="price">
-            $ 2,49
-          </div>
-        </div>
-
-        <h3>Pratos</h3>
-        <div class="item">
-          <div class="nome">
-            Açaí do manguezal 500ml
-          </div>
-
-          <div class="price">
-            $ 4,99
+            <div class="price">
+              $ 2,49
+            </div>
           </div>
         </div>
 
-        <div class="item">
-          <div class="nome">
-            Açaí marítimo (assinatura) 500ml
+        <div class="pratos">
+          <h3>Pratos</h3>
+          <div class="item">
+            <div class="nome">
+              Açaí do manguezal 500ml
+            </div>
+
+            <div class="price">
+              $ 4,99
+            </div>
           </div>
 
-          <div class="price">
-            $ 6,99
-          </div>
-        </div>
+          <div class="item">
+            <div class="nome">
+              Açaí marítimo (assinatura) 500ml
+            </div>
 
-        <div class="item">
-          <div class="nome">
-            Algas verdes fritas
-          </div>
-
-          <div class="price">
-            $ 7,49
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="nome">
-            Plâncton ao molho maracujá
+            <div class="price">
+              $ 6,99
+            </div>
           </div>
 
-          <div class="price">
-            $ 12,49
-          </div>
-        </div>
+          <div class="item">
+            <div class="nome">
+              Algas verdes fritas
+            </div>
 
-        <div class="item">
-          <div class="nome">
-            Plâncton ao pacífico (importado) marinado
+            <div class="price">
+              $ 7,49
+            </div>
           </div>
 
-          <div class="price">
-            $ 19,99
+          <div class="item">
+            <div class="nome">
+              Plâncton ao molho maracujá
+            </div>
+
+            <div class="price">
+              $ 12,49
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="nome">
+              Plâncton ao pacífico (importado) marinado
+            </div>
+
+            <div class="price">
+              $ 19,99
+            </div>
           </div>
         </div>
         
-        <h3>Bebes</h3>
+        <div class="bebes">
+          <h3>Bebes</h3>
 
-        <div class="item">
-          <div class="nome">
-            Água temperada (cortesia)
+          <div class="item">
+            <div class="nome">
+              Água temperada (cortesia)
+            </div>
+
           </div>
 
-        </div>
+          <div class="item">
+            <div class="nome">
+              Água doce importada (copo)
+            </div>
 
-        <div class="item">
-          <div class="nome">
-            Água doce importada (copo)
+            <div class="price">
+              $ 29,49
+            </div>
           </div>
 
-          <div class="price">
-            $ 29,49
-          </div>
-        </div>
+          <div class="item">
+            <div class="nome">
+              Coquetel de algas (alcoólico)
+            </div>
 
-        <div class="item">
-          <div class="nome">
-            Coquetel de algas (alcoólico)
-          </div>
-
-          <div class="price">
-            $ 8,99
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="nome">
-            Coquetel de algas (kids)
+            <div class="price">
+              $ 8,99
+            </div>
           </div>
 
-          <div class="price">
-            $ 5,49
+          <div class="item">
+            <div class="nome">
+              Coquetel de algas (kids)
+            </div>
+
+            <div class="price">
+              $ 5,49
+            </div>
           </div>
         </div>
         
@@ -143,9 +150,12 @@
         <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
       </div>
     </footer>
-  </div>
-  <div id="ticket">
+
+  <div class="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">
   </div>
+
+  </div>
+  
 </body>
 </html>

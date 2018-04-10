@@ -7,10 +7,15 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-image: linear-gradient(#f6f1b2, #4599b2);
+	background-attachment: fixed;
 	overflow: visible;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+header{
+	line-height: 0.5;
 }
 
 body{
@@ -21,6 +26,8 @@ h1{
 	font-family: "Ravie";
 	font-size: 36px;
 	color: #e90c0c;
+	padding: 20px 0 0 70px;
+	margin: 0;
 }
 
 h3{
@@ -33,18 +40,30 @@ h3{
 .main{
 	border: 1px solid #aac0ae;
 	width: 646px;
-	text-align: right;
+	text-align: left;
 	background-color: #ffffff20;
+	margin-left: 122px;
+	padding: 0 15px 40px 15px; 
+}
+
+.salgado{
+	padding: 3px 0 20px 0;
+}
+
+.pratos{
+	padding: 0 0 20px 0;
 }
 
 .cartao{
-	padding: 46px 15px 25px 0;
+	width: 95px;
+	padding: 46px 15px 25px 690px;
 }
 
 .subt{
 	font-family: "Trebuchet MS", sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: #333333;
+	padding: 0 0 0 200px;
 }
 
 .acai{
@@ -72,7 +91,7 @@ h3{
 	color: #333333;
 	font-weight: bold;
 	transform: rotate(-90deg);
-	left: -70px;
+	left: -45px;
 	top: 260px;
 }
 
@@ -92,6 +111,7 @@ h3{
 
 .item{
 	font-size: 14px;
+	line-height: 2;
 }
 
 .nome{
@@ -102,4 +122,16 @@ h3{
 .price{
 	float: right;
 	margin-top: -15px;
+}
+
+.ticket{
+	position: absolute;
+	left: -345px;
+	top: 300px;
+	overflow: hidden;
+}
+
+.ticket:hover{
+	left: -300px;
+	overflow: visible;
 }
